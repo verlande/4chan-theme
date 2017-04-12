@@ -1,0 +1,130 @@
+@import 'variables';
+
+#header-bar.dialog,.dialog
+{
+  background-color:$background!important;
+}
+
+*
+{
+  font-family:$font-stack!important;
+}
+
+.boardTitle
+{
+  font-family:$title-font!important;
+}
+
+.button,s .sjis,a
+{
+  transition-duration:1s!important;
+  transition-property:color!important;
+}
+
+.catalog-container:hover .post
+{
+  background-color:$catalog-container-popup-color!important;
+}
+
+.catalog-post
+{
+  background-color:#333;
+}
+
+.dd-menu li
+{
+  border-bottom-color:$border-color;
+}
+
+.dd-menu li:hover
+{
+  background-color:transparent;
+}
+
+.dd-menu ul
+{
+  border-bottom:0;
+  border-color:$border-color;
+  border-right-width:1px;
+}
+
+.panel,.postblock,.preview,table.postForm>tbody>tr>td:first-child,.dd-menu ul,div.reply
+{
+  background-color:$reply-box;
+}
+
+.postblock,table.postForm>tbody>tr>td:first-child
+{
+  color:inherit;
+}
+
+.preview,#quote-preview
+{
+  border-color:$border-color!important;
+  border-width:1px!important;
+}
+
+.reply:target,.reply.highlight
+{
+  background-color:#262340!important;
+  border:none!important;
+}
+
+a.replylink:not(:hover),div#absbot a:not(:hover),.quoteLink,.quotelink,.deadlink,a,a.visited,.button,.dd-menu li:hover,#arc-list .quotelink,s .sjis
+{
+  color:$link-color!important;
+}
+
+blockquote>span.quote
+{
+  color:$green-text;
+}
+
+body
+{
+  background:$background;
+  color:$body-color;
+}
+
+div#boardNavDesktopFoot,div#boardNavDesktop,div.pagelist,div#absbot
+{
+  color:#c49756;
+}
+
+div.pagelist
+{
+  background:none;
+  border:none!important;
+}
+
+div.post div.postInfo span.nameBlock span.postertrip,div.post div.postInfo span.nameBlock span.name
+{
+  color:$trip-color;
+}
+
+div.post div.postInfo span.postNum a:hover,.posteruid .hand:hover,a:hover,.button:hover,#arc-list .quotelink:hover,s .sjis:hover
+{
+  color:$link-hover-color!important;
+}
+
+div.post div.postInfo span.subject
+{
+  color:#85000C;
+}
+
+div.reply,div.pagelist div.cataloglink
+{
+  border:0;
+}
+
+div.sideArrows
+{
+  color:$border-color;
+}
+
+hr
+{
+  border:0;
+  border-bottom:1px solid $border-color;
+  height:1px;
+}

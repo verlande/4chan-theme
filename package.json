@@ -1,0 +1,24 @@
+{
+  "name": "4chan-theme",
+  "version": "1.0.0",
+  "description": "Dark theme for 4chan created in SASS",
+  "scripts": {
+    "build": "gulp sass:build",
+    "watch": "gulp sass:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verlande/4chan-theme.git"
+  },
+  "author": "verlande",
+  "license": "ISC",
+  "homepage": "https://github.com/verlande/4chan-theme#readme",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-sass": "latest"
+  },
+  "bugs": {
+    "url": "https://github.com/verlande/4chan-theme/issues"
+  },
+  "main": "gulpfile.js"
+}
